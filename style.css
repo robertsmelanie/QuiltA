@@ -1,10 +1,12 @@
 /* Add your CSS styles here */
 body {
   font-family: Arial, sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/26/04/55/prize-winning-quilt-958633_960_720.jpg);
 }
 
 .header {
   background-color: #333;
+  /* background-image: url(https://cdn.pixabay.com/photo/2015/09/26/04/55/prize-winning-quilt-958633_960_720.jpg); */
   color: white;
   padding: 30px;
   text-align: center;
@@ -41,7 +43,7 @@ body {
 
 .main-content .product-card {
   width: 30%;
-  background-color: white;
+  background-color: white !important;
   border: 1px solid lightgray;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -85,6 +87,7 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,6 +100,7 @@ body {
 .container {
   display: flex;
   width: 90vw;
+  background-color: black;
 }
 
 .panel {
