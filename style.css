@@ -89,8 +89,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh; */
+  overflow: scroll;
   margin: 0;
 }
 
@@ -131,7 +131,7 @@ body {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .container {
     width: 100vw;
   }
@@ -139,59 +139,5 @@ body {
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
-  }
-}
-
-/* 
-#cube {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  transform-style: preserve-3d;
-  animation: rotate-cube 20s linear infinite;
-}
-
-.side {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-}
-
-.front {
-  background-image: url("front-quilt.jpg");
-  transform: rotateY(0deg) translateZ(100px);
-}
-
-.back {
-  background-image: url("back-quilt.jpg");
-  transform: rotateY(180deg) translateZ(100px);
-}
-
-.left {
-  background-image: url("left-quilt.jpg");
-  transform: rotateY(-90deg) translateZ(100px);
-}
-
-.right {
-  background-image: url("right-quilt.jpg");
-  transform: rotateY(90deg) translateZ(100px);
-}
-
-.top {
-  background-image: url("top-quilt.jpg");
-  transform: rotateX(90deg) translateZ(100px);
-}
-
-.bottom {
-  background-image: url("bottom-quilt.jpg");
-  transform: rotateX(-90deg) translateZ(100px);
-}
-
-@keyframes rotate-cube {
-  0% {
-    transform: rotateX(0deg) rotateY(0deg);
-  }
-  100% {
-    transform: rotateX(360deg) rotateY(360deg);
   }
 } */
